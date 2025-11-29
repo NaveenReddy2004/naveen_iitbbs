@@ -54,20 +54,11 @@ pip install -r requirements.txt
 
 ### Step 2: Create .env File
 
-**Option A: Command Line**
-```bash
-# Windows
-echo GEMINI_API_KEY=AIzaSyDM6b6zNcbSedbKPByWwe5bAo1Hry0mBuk > .env
-
-# Mac/Linux
-echo "GEMINI_API_KEY=AIzaSyDM6b6zNcbSedbKPByWwe5bAo1Hry0mBuk" > .env
-```
-
-**Option B: Create manually**
+**Create manually**
 1. Create a file named `.env` (with the dot)
 2. Add this line:
 ```
-GEMINI_API_KEY=AIzaSyDM6b6zNcbSedbKPByWwe5bAo1Hry0mBuk
+GEMINI_API_KEY=AIza...................
 ```
 3. Save the file
 
@@ -98,3 +89,4 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
 
 **You're all set start enter url and get result**
+
