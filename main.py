@@ -1,8 +1,3 @@
-"""
-Medical Bill Extraction API - FastAPI + Gemini Vision
-Accepts ONLY URLs - Returns exact JSON format as per requirement
-"""
-
 import os
 import json
 import re
@@ -346,4 +341,5 @@ if __name__ == "__main__":
     print("\n API accepts ONLY URLs")
     print("   Request: {'document': 'https://example.com/bill.png'}\n")
     
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
